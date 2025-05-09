@@ -20,7 +20,8 @@ def predict_churn(data):
     return prediction
 
 st.title('Employee Churn Prediction App')
-st.subheader('Based on Employee Dataset')
+st.subheader('Based on: Employee Dataset')
+st.subheader('Created by: Moin Ahmed Ansari')
 
 # Display categorical features
 st.subheader('Categorical Features')
@@ -57,3 +58,5 @@ if st.button('Predict'):
     
     # Display the result
     st.write(f"Model's Prediction is **{prediction}**, Hence employee is **{prediction_translate}** to Leave/Churn.")
+    
+
